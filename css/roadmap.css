@@ -1,0 +1,67 @@
+/* ========== MAIN CONTAINER ========== */
+main {
+    max-width: 980px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 32px 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    line-height: 1.7;
+}
+
+/* ========== HEADINGS ========== */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    color: #111;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #007bff;
+}
+
+/* ========== SECTIONS ========== */
+.stage {
+    margin-bottom: 24px;
+}
+
+/* ========== LISTS ========== */
+.stage ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.stage ul li {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 600px) {
+    main {
+        padding: 24px 20px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .stage ul li {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
